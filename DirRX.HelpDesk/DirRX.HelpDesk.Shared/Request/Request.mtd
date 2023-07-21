@@ -40,7 +40,7 @@
         {
           "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
           "NameGuid": "40057378-0bbe-482e-8e7f-53fb47a42832",
-          "Name": "Control",
+          "Name": "Name",
           "ColumnNumber": 0,
           "ColumnSpan": 2,
           "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
@@ -161,6 +161,14 @@
       "IsRequired": true,
       "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
       "PreviousPropertyGuid": "e5e02fa8-eca1-44e0-95f3-a903f7a7091b"
+    },
+    {
+      "$type": "Sungero.Metadata.IntegerPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "fc4934a7-784a-412c-a4d3-7d56c60ec102",
+      "Name": "Index",
+      "Code": "Index",
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.NumericEditorToIntAndDoubleBinder",
+      "PreviousPropertyGuid": "417802c7-b938-43ec-af68-58dd5c744d59"
     }
   ],
   "PublicStructures": [],
